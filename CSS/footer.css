@@ -92,4 +92,8 @@ footer{
        
         margin-right: 0;
     }
+    .iconos img{
+        width: 40px;
+        margin: 15px 10px;
+    }
 }

@@ -82,10 +82,11 @@
     
 }
 .inputs2 label{
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Mako', sans-serif;
 }
 .inputs label{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Mako', sans-serif;
 }
 .toggle-switch p{
@@ -108,7 +109,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 20px 0;
+        padding: 30px 0;
     }
     .container_form1{
         display: flex;
@@ -118,13 +119,50 @@
        background-color: rgb(255, 255, 255);
         border: none;
         border-radius: 9px;
-        margin: 0 200px;
+        margin: 0 250px;
  
-        padding: 60px 30px;
+        padding: 60px 60px;
     }
     .seccion4 img{
         width: 300px;
         border-radius: 9px;
         margin-left: 0px;
+    }
+    .toggle-switch p{
+        font-size: 16px;
+        font-family: 'Mako', sans-serif;
+    }
+    .btn_cot{
+        width: 200px;
+        height: 40px;
+        color: white;
+        border-radius: 9px;
+        border: none;
+        background-color: rgb(226, 16, 177);
+        margin: 15px 0;
+        margin-left: 0px;
+
+    .inputs input{
+        width: 300px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid rgb(192, 192, 192);
+        
+    }
+    .inputs2 input{
+        width: 300px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid rgb(192, 192, 192);
+        margin: 10px 0;
+        
+    }
+    .inputs2 label{
+        font-size: 16px;
+        font-family: 'Mako', sans-serif;
+    }
+    .inputs label{
+        font-size: 16px;
+        font-family: 'Mako', sans-serif;
     }
 }
