@@ -3,6 +3,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     padding: 5px 0;
+    background-color: white;
 }
 .logo_nav{
     display: flex;

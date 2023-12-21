@@ -91,10 +91,10 @@
 .btn_cot{
     width: 200px;
     height: 40px;
-    background-color: rgb(125, 11, 246);
     color: white;
-    border-radius: 3px;
+    border-radius: 9px;
     border: none;
+    background-color: rgb(226, 16, 177);
     margin: 15px 0;
     margin-left: 80px;
 }
