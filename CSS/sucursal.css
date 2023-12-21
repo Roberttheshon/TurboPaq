@@ -12,6 +12,7 @@
 .sucursal h2{
     font-size: 40px;
     color: white;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 .btn_sucur{
@@ -21,7 +22,8 @@
     border: none;
     background-color: rgb(251, 251, 251);
     color: rgb(238, 14, 241);
-    
+    font-family: 'Mako', sans-serif;
+    font-size: 16px;
     margin: 10px 0;
     margin-left: 60px;
 }

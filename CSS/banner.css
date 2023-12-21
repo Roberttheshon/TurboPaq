@@ -20,12 +20,14 @@
     margin-left: 100px;
 }
 .textos_banner h2{
-    width: 90%;
+    width: 100%;
     font-size: 50px;
     text-align: start;
+    font-family: 'Maven Pro', sans-serif;
 }
 .textos_banner p{
     width: 70%;
+    font-family: 'Mako', sans-serif;
 }
 .rastreo{
     margin-left: 100px;

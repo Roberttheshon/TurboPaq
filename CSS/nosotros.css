@@ -10,6 +10,9 @@
 }
 .seccion2 h2{
     text-align: center;
+    font-family: 'Average Sans', sans-serif;
+    color: rgb(77, 77, 77);
+    font-size: 30px;
 }
 .textos_Nost {
     display: flex;
@@ -34,6 +37,9 @@
     width: 90%;
     margin-left: 40px;
     font-size: 18px;
+    font-family: 'Mako', sans-serif;
+    font-weight: 10px;
+    color: rgb(77, 77, 77);
 }
 
 /*-----------------------------*/

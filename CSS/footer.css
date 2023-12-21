@@ -6,6 +6,8 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 250PX;
+    font-family: 'Average Sans', sans-serif;
+    color: rgb(77, 77, 77);
 }
 
 
@@ -57,7 +59,7 @@ footer{
     
 }
 .container_contc label{
-    font-size: 18px;
+    font-size: 16px;
 }
 .btn_contc{
     width: 200px;
@@ -66,10 +68,17 @@ footer{
     border: none;
     background-color: rgb(226, 16, 177);
     color: white;
-    
+    font-size: 16px;
     margin: 10px 0;
     margin-left: 60px;
     
+}
+.iconos{
+    display: flex;
+}
+.iconos img{
+    width: 40px;
+    margin: 0 10px;
 }
 /*-------------------------------*/
 @media screen and  (max-width: 750px){

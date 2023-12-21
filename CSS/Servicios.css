@@ -4,6 +4,8 @@
 .seccion3 h2{
     text-align: center;
     font-size: 30px;
+    font-family: 'Average Sans', sans-serif;
+    color: rgb(77, 77, 77);
 }
 
 .container_Precios{
@@ -22,10 +24,11 @@
 }
 .lista_servicio li {
     color: white;
+    font-family: 'Mako', sans-serif;
     /* grayish blue */
     border-bottom: 1px solid hsl(0, 0%, 100%);
     padding: 12px 0;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .lista_servicio li:first-child {
