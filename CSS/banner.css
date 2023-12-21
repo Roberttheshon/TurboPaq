@@ -1,0 +1,95 @@
+.seccion1{
+    background-image: radial-gradient(circle at 25% 54%, rgba(18, 18, 18,0.06) 0%, rgba(18, 18, 18,0.06) 22%,
+    transparent 22%, transparent 100%),radial-gradient(circle at 67% 98%, rgba(223, 223, 223,0.06) 0%, rgba(223, 223, 223,0.06) 52%,
+    transparent 52%, transparent 100%),radial-gradient(circle at 7% 92%, rgba(169, 169, 169,0.06) 0%, rgba(169, 169, 169,0.06) 52%,transparent 52%, transparent 100%),radial-gradient(circle at 46% 37%, rgba(187, 187, 187,0.06) 0%, rgba(187, 187, 187,0.06) 47%,transparent 47%, transparent 100%),radial-gradient(circle at 38% 35%, rgba(57, 57, 57,0.06) 0%, rgba(57, 57, 57,0.06) 99%,transparent 99%, transparent 100%),radial-gradient(circle at 46% 86%, rgba(100, 100, 100,0.06) 0%, rgba(100, 100, 100,0.06) 60%,
+    transparent 60%, transparent 100%),linear-gradient(90deg, rgb(57, 8, 200),rgb(240, 145, 202));
+    
+    padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.textos_banner{
+    color: white;
+    margin-left: 100px;
+}
+.textos_banner h2{
+    width: 90%;
+    font-size: 50px;
+}
+.textos_banner p{
+    width: 70%;
+}
+.rastreo{
+    margin-left: 100px;
+}
+.rastreo input{
+    width: 350px;
+    height: 50px;
+    border:1px solid rgb(184, 184, 184);
+}
+.rastreo .boton_r{
+    height:54px;
+    width: 80px;
+    color:white;
+    background-color:  rgb(226, 16, 177);
+    border: none;
+    cursor: pointer;
+}
+.boton_r:hover{
+    border: none;
+    color:white;
+    background-color: rgb(125, 11, 246);
+}
+
+@media screen and  (max-width: 750px){
+    .seccion1{
+       
+        padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+    }
+    .textos_banner{
+        
+        margin-left: 0px;
+    }
+    .textos_banner h2{
+        width: auto;
+        font-size: 40px;
+        text-align: justify;
+        margin: 20px;
+        
+    }
+    .textos_banner p{
+        width: auto;
+        text-align: justify;
+        margin: 20px;
+    }
+.imagen_Paquete img{
+    width: 300px;
+}
+.rastreo{
+    margin-left: 0;
+    margin: 40px 20px;
+    
+}
+.rastreo input{
+    width: 250px;
+    height: 50px;
+    border:1px solid rgb(184, 184, 184);
+}
+.rastreo .boton_r{
+    height:54px;
+    width: 80px;
+    color:white;
+    background-color:  rgb(226, 16, 177);
+    border: none;
+    cursor: pointer;
+}
+}

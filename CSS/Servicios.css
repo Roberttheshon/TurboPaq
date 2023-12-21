@@ -1,0 +1,114 @@
+.seccion3{
+    margin: 140px 0;
+}
+.seccion3 h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container_Precios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.lista_servicio {
+    
+    
+    list-style: none;
+    padding: 35px 0px;
+
+}
+.lista_servicio li {
+    
+    /* grayish blue */
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+    padding: 12px 0;
+}
+
+.lista_servicio li:first-child {
+    border-top: 1px solid hsl(234, 14%, 74%);
+}
+.container_Precios img{
+    width: 150px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    
+
+}
+
+.precio1{
+    border: none;
+    border-radius: 9px ;
+    width: 340px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 5px;
+    height: 420px;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(50,50,50,.5);
+}
+
+.mejor_Precio{
+    
+    background: #DA22FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0 20px;
+    color: white;
+    height: 470px;
+    width: 340px;
+    border-radius: 9px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(50,50,50,.5);
+    
+}
+
+.mejor_Precio .tipo_m{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.tipo{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: #b153f9;
+}
+.servicio{
+    text-align: justify;
+    width: 80%;
+    
+    
+}
+
+.precio1:hover{
+    width: 360;
+    height: 420px;
+    font-size: 18;
+    transition: .3s;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(150, 124, 20, 0.5);
+    background-color: rgb(244, 244, 244);
+}
+@media screen and  (max-width: 750px){
+    .container_Precios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mejor_Precio{
+        margin: 20px 0;
+    }
+        
+}
