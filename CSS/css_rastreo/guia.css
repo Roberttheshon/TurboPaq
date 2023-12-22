@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: repeating-radial-gradient(circle at center center, transparent 0px, transparent 13px,rgba(0,0,0,0.03) 13px, rgba(0,0,0,0.03) 24px,transparent 24px, transparent 62px,rgba(0,0,0,0.03) 62px, rgba(0,0,0,0.03) 96px),repeating-radial-gradient(circle at center center, rgb(246,246,246) 0px, rgb(246,246,246) 14px,rgb(246,246,246) 14px, rgb(246,246,246) 18px,rgb(246,246,246) 18px, rgb(246,246,246) 28px,rgb(246,246,246) 28px, rgb(246,246,246) 32px); background-size: 21px 21px;
+}
+.rastreador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.rastreador h2{
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+    color: blueviolet;
+}
+.rastreador p{
+    margin: 0;
+    font-family: 'Mako', sans-serif;
+    color: rgb(80, 80, 80);
+}
+.rastreo2{
+    margin-left: 100px;
+}
+.rastreo2 input{
+    width: 350px;
+    height: 50px;
+    border:1px solid rgb(184, 184, 184);
+}
+.rastreo2 .boton_r2{
+    height:54px;
+    width: 80px;
+    color:white;
+    background-color:  rgb(226, 16, 177);
+    border: none;
+    cursor: pointer;
+}
+.boton_r2:hover{
+    border: none;
+    color:white;
+    background-color: rgba(125, 11, 246, 0.29);
+}
+
+
+.textos_tit{
+    background-color: rgba(137, 43, 226, 0.085);
+    width: 600px;
+    margin: 20px 0;
+    padding: 10px 10px;
+    border-radius: 9px;
+}
+
+
+/*container de rastreo*/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+.textos_paq{
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+.titulo_img h2{
+color: rgb(118, 12, 216);
+font-family: 'Average Sans', sans-serif;
+}
+
+.guia_tit{
+    font-size: 45px;
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.serv{
+    font-size: 28px;
+    font-family: 'Average Sans', sans-serif;
+}
+
+/*diseno de peso*/
+.caract_paq{
+    display: flex;
+    justify-content: space-evenly;
+}
+.kilos{
+    border: none;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(192, 192, 192, 0.5);
+    border-radius: 3px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    background-color: white;
+    
+}
+.kilos img{
+    width: 80px;
+    margin: 10px;
+    position: absolute;
+    left: 120px;
+    border-radius: 100%;
+    border: none;
+    padding: 2px;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(87, 55, 85, 0.5);
+    background-color: white;
+}
+.kg{
+    margin-left: 50px;
+    
+}
+.kilos_paq{
+    font-size: 28px;
+    font-family: 'Average Sans', sans-serif;
+}
+.kg p{
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Mako', sans-serif;
+}
+/*diseno de bulto*/
+.Piezas{
+    border: none;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(192, 192, 192, 0.5);
+    border-radius: 3px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    background-color: white;
+    margin: 0 70px;
+}
+.Piezas img{
+    width: 80px;
+    margin: 10px;
+    position: absolute;
+    left: 445px;
+    top: 585px;
+    border-radius: 100%;
+    border: none;
+    padding: 2px;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(87, 55, 85, 0.5);
+    background-color: white;
+}
+.pzs{
+    margin-left: 50px;
+    
+}
+.pzs_paq{
+    font-size: 28px;
+    font-family: 'Average Sans', sans-serif;
+}
+.pzs p{
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Mako', sans-serif;
+}
+
+
+/* Estado */
+.estado_paq{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(192, 192, 192, 0.5);
+    border-radius: 3px;
+    margin-top: 30px;
+    padding: 10px 25px;
+}
+.estado_paq p{
+    font-size: 20px;
+    font-family: 'Average Sans', sans-serif;
+    margin: 10px 0;
+}
+.estado_paq span{
+    color: rgb(145, 145, 145);
+    font-family: 'Mako', sans-serif;
+    padding-top: 5px;
+    
+}
+
+
+
+
+/* Envios*/
+.dato_envio{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(192, 192, 192, 0.5);
+    border-radius: 3px;
+    padding: 10px 40px;
+    margin-top: 80px;
+    
+    
+}
+.lista_datosEnvio{
+    margin: 20px 0;
+    list-style: none;
+    
+    
+}
+.lista_datosEnvio li{
+    border-bottom: 1px solid hsl(0, 0%, 74%);
+    margin: 0 10px;
+}
+.lista_datosEnvio p{
+    font-size: 20px;
+    font-family: 'Average Sans', sans-serif;
+}
+.lista_datosEnvio span{
+    color: rgb(145, 145, 145);
+    font-family: 'Mako', sans-serif;
+}
+
+@media screen and  (max-width: 750px){
+    .textos_tit{
+        background-color: rgba(137, 43, 226, 0.085);
+        width: 250px;
+        margin: 20px 0;
+        padding: 10px 10px;
+        border-radius: 9px;
+    }
+    .rastreo2{
+        margin-left: 0;
+    }
+    .rastreo2 input{
+        width: 200px;
+        height: 50px;
+        border:1px solid rgb(184, 184, 184);
+    }
+
+
+    .container{
+  
+        flex-direction: column;
+       
+        margin-top: 90px;
+    }
+    .titulo_img h2{
+        color: rgb(118, 12, 216);
+        font-family: 'Average Sans', sans-serif;
+        text-align: center;
+        }
+        
+        .guia_tit{
+            font-size: 45px;
+            margin: 0;
+            font-family: 'Maven Pro', sans-serif;
+            text-align: center;
+        }
+        
+        .serv{
+            font-size: 28px;
+            font-family: 'Average Sans', sans-serif;
+            text-align: center;
+        }
+    .dato_paq{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .caract_paq{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .Piezas{
+      
+        margin: 40px 0;
+    }
+    .kilos img{
+        left: 20px;
+       
+    }
+
+    .Piezas img{
+        left: 20px;
+        top: 780px;
+        
+    }
+
+    /* Estado */
+.estado_paq{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 10px 25px;
+    width: 250px;
+}
+
+
+.dato_envio{
+    width: 200px;
+    height: 450px;
+    padding: 5px 30px;
+    margin-top: 80px;
+    
+    
+}
+.lista_datosEnvio{
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    
+    
+}
+.lista_datosEnvio p{
+    font-size: 18px;
+    
+}
+
+.lista_datosEnvio li{
+    border-bottom: 1px solid hsl(0, 0%, 74%);
+    margin: 0 0px;
+}
+
+}
